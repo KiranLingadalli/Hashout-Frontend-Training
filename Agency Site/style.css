@@ -84,7 +84,8 @@ header a:hover {
     float: left;
     text-align: center;
     width: 30%;
-    padding: 10px 10px 80px;
+    padding: 10px;
+    margin-bottom: 80px;
 }
 
 #boxes .box img {
@@ -160,6 +161,7 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
     }
     #boxes .box{
         padding: 10px;
+        margin: 0;
     }
     #showcase h1 {
         font-size: 25px;

@@ -4,14 +4,14 @@ function fakeStoreApi() {
             return response.json()
         })
         .then((data) => {
-            productsdata(data);
+            productsData(data);
         })
         .catch((error) => {
             console.log('error fetching data:', error);
         })
 }
 
-function productsdata(products) {
+function productsData(products) {
     const productList = document.querySelector('.products-list');
 
     products.forEach(product => {

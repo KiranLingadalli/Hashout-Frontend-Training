@@ -326,6 +326,9 @@ form .error {
   color: var(--Purplish-blue);
   font-size: 1.2rem;
 }
+.confirm-btn{
+  background-color: var(--Purplish-blue);
+}
 /* step 5 */
 .step-5 {
   display: none;
